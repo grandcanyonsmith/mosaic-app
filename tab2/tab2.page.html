@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar primary color="dark">
+    <ion-title>
+        <ion-button (click)="btnClicked()" fill="outline" color="secondary" class="button icon ion-gear-a">Back</ion-button>
+        Add Clothes to MyCloset
+        <ion-button (click)="btnClicked()"><ion-icon name="arrow-forward"></ion-icon></ion-button>
+        
+
+    </ion-title>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding class="action-sheets-basic-page">
+    <button ion-button block (click)="openMenu()">
+      Show Action Sheet
+    </button>
+
+      
+        <ion-button (click)="openMenu()">Home & Garden</ion-button>
+        <ion-button (click)="openMenu()">Clothing & Accessories</ion-button>
+        <ion-button (click)="openMenu()">Beauty</ion-button>
+        <ion-button (click)="openMenu()">Food & Recipes</ion-button>
+        <ion-button (click)="openMenu()">Architecture</ion-button>
+ 
+  </ion-content>
+ 
+
+<!-- 
+<ion-row align-items-center>
+    <ion-col>
+      [center] ion-col
+    </ion-col>
+    <ion-col>
+      [center] ion-col
+    </ion-col>
+    <ion-col>
+      [center] ion-col
+    </ion-col>
+    <ion-col>
+      ion-col
+      <br>#
+      <br>#
+    </ion-col> -->
+
